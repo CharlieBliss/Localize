@@ -1,7 +1,6 @@
 class User < ActiveRecord::Base
-
+  has_secure_password
   validates :email, uniqueness: true
-  validates :pin, uniqueness: true
-  validates :about, length: {maximum: 500}
+  validates :password, uniqueness: true
 
 end
