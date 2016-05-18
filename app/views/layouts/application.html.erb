@@ -3,12 +3,31 @@
 <head>
   <title>Localize</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= stylesheet_link_tag    'layout.css' %>
   <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<nav>
+  <ul>
+    <li id="logo">&#8962;</li>
+    <li id="title"> LOCALIZE </li>
+  </ul>
+</nav>
+
+
 
 <%= yield %>
 
+
+<footer>
+  <ul>
+    <li>BUY MUSIC </li>
+
+    <a href="#"><li id="info"> i </li></a>
+    <li id="title"> GET BEER</li>
+  </ul>
+</footer>
 </body>
 </html>

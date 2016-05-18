@@ -1,0 +1,63 @@
+nav{
+  background-color: RGB(227,69,75);
+  margin: -2em;
+  padding: 1em;
+  width:100%;
+  position: fixed;
+  text-align: center;
+}
+
+nav ul{
+  list-style-type: none;
+  display: inline;
+
+}
+
+nav ul li{
+  display:inline;
+  font-size: 5em;
+  color: white;
+  font-family: Futura, sans-serif;
+  font-weight:bold;
+  letter-spacing: .25em;
+}
+
+#logo{
+margin-left: -15%;
+margin-right: 15%
+}
+
+footer{
+  background-color: RGB(227,69,75);
+  margin: -2em;
+  margin-bottom: -2.5em;
+  padding: 1em;
+  width:100%;
+  position: fixed;
+  text-align: center;
+
+  bottom: 0;
+}
+
+footer ul li{
+  display:inline;
+  font-size: 3em;
+  color: white;
+  font-family: Futura, sans-serif;
+  padding-bottom: .5em;
+}
+
+#info{
+  margin-right: 10%;
+  margin-left: 10%;
+  font-size: 5em;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  color:RGB(227,69,75);
+  background-color: white;
+  border-radius: 50%;
+  font-weight: bold;
+  padding-bottom: 0;
+  margin-bottom: .5em;
+}
